@@ -13,12 +13,12 @@ export default function App() {
     </section>
     <section className="padding bg-blue-50 ">
       <Services/>
-    </section>
+    {/* </section>
     <section className="padding">
       <Specialoffer/>
     </section>
     <section className="padding-x sm:py-32 py-16 w-full">
-      <Follow/>
+      <Follow/> */}
     </section>
     <section className="padding-x padding-t pb-8 bg-black text-blue-200">
       
