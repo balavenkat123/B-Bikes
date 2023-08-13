@@ -97,10 +97,10 @@ export const footerLinks = [
         links: [
             { name: "Honda Activa 6G", link: "/" },
             { name: "Honda Dio", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Honda Shine 125", link: "/" },
+            { name: "Royal Enfield  ", link: "/" },
+            { name: "Bajaj", link: "/" },
+            { name: "Yamaha Motors", link: "/" },
         ],
     },
     {
