@@ -1,6 +1,8 @@
 const BikeCard = () => {
   return (
-    <div>BikeCard</div>
+    <div>BikeCard
+        bikecard
+    </div>
   )
 }
 
