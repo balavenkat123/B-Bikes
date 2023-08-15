@@ -8,7 +8,7 @@ export const navLinks = [
     { href: "#contact-us", label: "Contact Us" },
 ];
 
-export const shoes = [
+export const bikes = [
     {
         thumbnail: thumbnailShoe1,
         bigShoe: bike1,

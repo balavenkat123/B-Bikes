@@ -1,7 +1,8 @@
 import Button from '../components/Button'
 import { arrowRight } from '../assets/icons'
 import { bike1 } from '../assets/images'
-import { statistics } from '../constants'
+import { bikes, statistics } from '../constants'
+import BikeCard from '../components/BikeCard'
 
 
 
@@ -30,8 +31,15 @@ const Hero = () => {
         )}
       </div>
       </div>
+      <div className='relative flex-1 flex justify-center items-center w-full xl:min-h-screen max-xl:py-40 bg-hero bg-cover bg-center'>
+        <img src={bike1} alt="shoe" className='padding-x padding-y bg-sky-100   ' />
+      </div>
       <div>
-        <img src={bike1} alt="shoe" className='padding-x padding-y bg-sky-100 w-full' />
+        {bikes.map((bike)=>
+          <div key={bike}>
+            <BikeCard/>
+          </div>
+        )}
       </div>
     </section>
   )
