@@ -37,7 +37,10 @@ const Hero = () => {
       <div>
         {bikes.map((bike)=>
           <div key={bike}>
-            <BikeCard/>
+            <BikeCard 
+            imgURL={bike}
+            changeBigBike={()=>{}}
+            bigBikeImg=""/>
           </div>
         )}
       </div>
