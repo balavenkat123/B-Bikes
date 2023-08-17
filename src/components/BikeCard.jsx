@@ -2,7 +2,9 @@
 
 const BikeCard = ({imgURL,changeBigBike,bigBikeImg}) => {
     const handleClick=()=>{
-        
+        if(bigBikeImg!==imgURL){
+          changeBigBike(imgURL.bigBikeImg)
+        }
     }
   return (
     <div className={`border-2 rounded-xl 
