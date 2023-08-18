@@ -18,8 +18,8 @@ import shoe8 from './shoe8.svg'
 
 import thumbnailBackground from './thumbnail-background.svg'
 import smallredbike from './smallredbike.png'
-import thumbnailShoe2 from './thumbnail-shoe2.svg'
-import thumbnailShoe3 from './thumbnail-shoe3.svg'
+import smallblackbike from './smallblackbike.png'
+import smallbluebike from './smallredbike.png'
 
 export { 
     bike1,
@@ -41,6 +41,6 @@ export {
 
     thumbnailBackground,
     smallredbike,
-    thumbnailShoe2,
-    thumbnailShoe3
+    smallblackbike,
+    smallbluebike
 }
