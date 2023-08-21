@@ -8,7 +8,7 @@ import { statistics } from '../constants'
 
 const Hero = () => {
   return (
-    <section id='home' className='w-full border-2 border-red-500 flex xl:flex-row flex-col min-h-screen
+    <section id='home' className='w-full border-2 border-blue-300 flex xl:flex-row flex-col min-h-screen
      gap-10 max-container bg-sky-50' >
       <div className='relative xl:w-2/4 flex flex-col justify-center items-start w-full padding-x pt-28'>
         <p className='text-bold text-xl text-sky-800'>Our Collection </p>
