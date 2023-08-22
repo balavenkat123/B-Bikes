@@ -14,7 +14,7 @@ const BikeCard = ({imgURL,changeBigBike,bigBikeImg}) => {
         } cursor-pointer max-sm:flex-1
     `} onClick={handleClick}>
         <div>
-          <img src={imgURL.thumbnail} alt="image" />
+          <img src={imgURL.thumbnail} alt="bikes" />
         </div>
     </div>
   )
