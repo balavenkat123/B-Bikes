@@ -13,7 +13,7 @@ const BikeCard = ({imgURL,changeBigBike,bigBikeImg}) => {
            : 'border-transparent' 
         } cursor-pointer max-sm:flex-1
     `} onClick={handleClick}>
-        <div className="flex justify-center items-center bg-card bg-center bg-cover bg-blue-300 sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
+        <div className="flex justify-center items-center bg-card bg-center bg-cover bg-blue-300 sm:w-40 sm:h-40 rounded-xl max-sm:p-4 ">
           <img src={imgURL.thumbnail} alt="bikes" className="object-contain"/>
         </div>
     </div>
