@@ -1,5 +1,3 @@
-
-
 const BikeCard = ({imgURL,changeBigBike,bigBikeImg}) => {
     const handleClick=()=>{
         if(bigBikeImg!==imgURL){
@@ -9,7 +7,7 @@ const BikeCard = ({imgURL,changeBigBike,bigBikeImg}) => {
   return (
     <div className={`border-2 rounded-xl 
         ${bigBikeImg===imgURL
-           ? 'border-coral-red'
+           ? 'border-color-red'
            : 'border-transparent' 
         } cursor-pointer max-sm:flex-1
     `} onClick={handleClick}>

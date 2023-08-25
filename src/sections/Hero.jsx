@@ -40,8 +40,8 @@ const Hero = () => {
           <div key={bike}>
             <BikeCard 
             imgURL={bike}
-            changeBigBike={()=>{}}
-            bigBikeImg=""/>
+            changeBigBike={(bike)=>setbigBikeImg(bike)}
+            bigBikeImg={bigBikeImg}/>
           </div>
         )}
       </div>
