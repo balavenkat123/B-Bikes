@@ -6,7 +6,7 @@ const BikeCard = ({imgURL,changeBigBike,bigBikeImg}) => {
     }
   return (
     <div className={`border-2 rounded-xl 
-        ${bigBikeImg===imgURL
+        ${bigBikeImg===imgURL.bigBikeImg
            ? 'border-color-red'
            : 'border-transparent' 
         } cursor-pointer max-sm:flex-1
