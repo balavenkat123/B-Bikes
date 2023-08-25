@@ -4,10 +4,11 @@ import { bike1 } from '../assets/images'
 import { bikes, statistics } from '../constants'
 import BikeCard from '../components/BikeCard'
 
-
+import { useState } from 'react'
 
 
 const Hero = () => {
+  const[bigBikeImg,setbigBikeImg]=useState(bike1)
   return (
     <section id='home' className='w-full border-2 border-blue-300 flex xl:flex-row flex-col min-h-screen
      gap-10 max-container bg-sky-50' >
@@ -32,7 +33,7 @@ const Hero = () => {
       </div>
       </div>
       <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-blue-100 bg-hero bg-cover bg-center'>
-        <img src={bike1} alt="shoe" width={610} height={502} className='object-contain relative z-10 ' />
+        <img src={bigBikeImg} alt="shoe" width={510} height={402} className='object-contain relative z-10 ' />
       
       <div className='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6'>
         {bikes.map((bike)=>
@@ -44,7 +45,7 @@ const Hero = () => {
           </div>
         )}
       </div>
-      </div> 
+    </div> 
     </section>
   )
 }
