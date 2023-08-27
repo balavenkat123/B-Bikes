@@ -1,8 +1,8 @@
-import React from 'react'
+import { products } from "../constants"
 
 const Popularbikes = () => {
   return (
-    <div>Popularbikes</div>
+    <section id="products" className="max-container"></section>
   )
 }
 

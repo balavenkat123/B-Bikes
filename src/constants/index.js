@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bike1, bike2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, smallredbike,smallblackbike,smallbluebike } from "../assets/images";
+import { bike1, bike2, bigShoe3, customer1, customer2, bike4, shoe5, shoe6, shoe7, smallredbike,smallblackbike,smallbluebike } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -31,7 +31,7 @@ export const statistics = [
 
 export const products = [
     {
-        imgURL: shoe4,
+        imgURL: bike4,
         name: "Nike Air Jordan-01",
         price: "$200.20",
     },
