@@ -7,7 +7,7 @@ const Popularbikes = () => {
         <h1 className="sm:text-6xl text-4xl font-bold"><span className="text-sky-500">Popular</span>  products</h1>
         <p className="lg:max-w-lg mt-2 font-montserrat">here are some more products which can be provided</p>
       </div>
-      <div className="mt-16 "></div>
+      <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 grid-cols-1"></div>
     </section>
   )
 }
