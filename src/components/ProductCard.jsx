@@ -1,8 +1,8 @@
-import React from 'react'
-
-const ProductCard = () => {
+const ProductCard = (imgURL,name,price) => {
   return (
-    <div>ProductCard</div>
+    <div className="flex flex-1 flex-col w-full max-sm:w-full">
+        <img src={imgURL} alt="bike4" className="w-[280px] h-[280px]"/>
+    </div>
   )
 }
 
