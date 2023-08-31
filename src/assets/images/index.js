@@ -13,7 +13,7 @@ import offer from './offer.svg'
 import bike4 from './bike4.png'
 import bike5 from './bike5.png'
 import bike6 from './bike6.png'
-import shoe7 from './shoe7.svg'
+import bike7 from './bike7.png'
 import shoe8 from './shoe8.svg'
 
 import thumbnailBackground from './thumbnail-background.svg'
@@ -36,7 +36,7 @@ export {
     bike4,
     bike5,
     bike6,
-    shoe7,
+    bike7,
     shoe8,
 
     thumbnailBackground,
