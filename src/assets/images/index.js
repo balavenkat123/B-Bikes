@@ -11,8 +11,8 @@ import headerLogo from './headerlogo.png'
 import offer from './offer.svg'
 
 import bike4 from './bike4.png'
-import shoe5 from './shoe5.svg'
-import shoe6 from './shoe6.svg'
+import bike5 from './bike5.png'
+import bike6 from './bike6.png'
 import shoe7 from './shoe7.svg'
 import shoe8 from './shoe8.svg'
 
@@ -34,8 +34,8 @@ export {
 
     offer,
     bike4,
-    shoe5,
-    shoe6,
+    bike5,
+    bike6,
     shoe7,
     shoe8,
 
