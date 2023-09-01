@@ -7,6 +7,7 @@ const ProductCard = ({imgURL,name,price}) => {
         <div className="mt-8 flex justifu-start gap-4">
             <img src={star} alt="rating" width={24} height={24} />5
         </div>
+        <h3>{name}</h3>
     </div>
 
   )

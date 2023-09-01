@@ -32,22 +32,22 @@ export const statistics = [
 export const products = [
     {
         imgURL: bike4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        name: "ACTIVA STD,DLX",
+        price: "10000rs",
     },
     {
         imgURL: bike5,
-        name: "Nike Air Jordan-10",
+        name: "Honda CB350RS",
         price: "$210.20",
     },
     {
         imgURL: bike6,
-        name: "Nike Air Jordan-100",
+        name: "Shine Disc - OBD2",
         price: "$220.20",
     },
     {
         imgURL: bike7,
-        name: "Nike Air Jordan-001",
+        name: "Honda Dio",
         price: "$230.20",
     },
 ];
