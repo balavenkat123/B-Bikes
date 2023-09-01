@@ -5,8 +5,8 @@ export default function App() {
   return (
     <main className="relative">
     <Nav/>
-    <section className="xl:padding-1 wide:padding-r padding-b bg-blue-50">
-      <Hero/> 
+    <section className="xl:padding-1 wide:padding-r padding-b ">
+      <Hero className="bg-blue-50"/> 
     </section>
     <section className="padding bg-blue-50">
       <Popularbikes/>
