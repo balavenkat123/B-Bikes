@@ -1,7 +1,7 @@
 const Services = () => {
   return (
-    <section>
-      <div>sections</div>
+    <section className="max-container flex justify-center flex-wrap gap-9 ">
+      
     </section>
   )
 }
