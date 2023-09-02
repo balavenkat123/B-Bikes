@@ -3,19 +3,25 @@ import { arrowRight } from '../assets/icons'
 import { bike1 } from '../assets/images'
 import { bikes, statistics } from '../constants'
 import BikeCard from '../components/BikeCard'
-
+import Typed from 'react-typed';
 import { useState } from 'react'
 
 
 const Hero = () => {
   const[bigBikeImg,setbigBikeImg]=useState(bike1)
   return (
-    <section id='home' className='w-full border  flex xl:flex-row flex-col min-h-screen
+    <section id='home' className='w-full border flex xl:flex-row flex-col min-h-screen
      gap-10 max-container bg-sky-50' >
       <div className='relative xl:w-2/4 flex flex-col justify-center items-start w-full padding-x pt-28'>
         <p className='text-bold text-xl text-sky-800'>Our Collection </p>
         <h1 className='mt-8 font-palanque sm:text-8xl font-bold text-8xl'>
-          <spam> New Arrival</spam>
+        <Typed
+                    strings={['NewArrival']}
+                    typeSpeed={100}
+                    backSpeed={30}
+                    loop
+                />
+          
           <br/>
           <spam className="text-sky-500">TWO </spam>wheelers 
         </h1>
