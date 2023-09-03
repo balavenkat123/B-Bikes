@@ -1,8 +1,8 @@
-import React from 'react'
-
 const Services = () => {
   return (
-    <div>Servicesss</div>
+    <section>
+      <div>sections</div>
+    </section>
   )
 }
 
