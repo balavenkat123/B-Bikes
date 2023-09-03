@@ -68,6 +68,11 @@ export const services = [
         label: "Love to help you",
         subtext: "Our dedicated team is here to assist you every step of the way."
     },
+    {
+        imgURL: support,
+        label: "Love to help you",
+        subtext: "Our dedicated team is here to assist you every step of the way."
+    }
 ];
 
 export const reviews = [
