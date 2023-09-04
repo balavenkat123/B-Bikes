@@ -11,7 +11,7 @@ export default function App() {
     <section className="padding bg-blue-50">
       <Popularbikes/>
     </section>
-    <section className="padding-x py-10">
+    <section className="padding bg-blue-50 ">
       <Services/>
     </section>
     <section className="padding">
