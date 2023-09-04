@@ -56,22 +56,22 @@ export const services = [
     {
         imgURL: truckFast,
         label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+        subtext: "Enjoy the safe delivary experince "
     },
     {
         imgURL: shieldTick,
-        label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        label: "Low downpayment",
+        subtext: "Low cost emi at very reasonable rate of intrest."
     },
     {
         imgURL: support,
-        label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
+        label: "custamor Support",
+        subtext: "very genuine guidence to the customers."
     },
     {
         imgURL: support,
-        label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
+        label: "Loan availability",
+        subtext: "can be ordered all around hyderabad"
     }
 ];
 
