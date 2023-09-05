@@ -5,7 +5,7 @@ import bike2 from './bike2.png'
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
 
-import footerLogo from './footer-logo.svg'
+import footerLogo from './footerlogo.jpg'
 import headerLogo from './headerlogo.png'
 
 import offer from './offer.svg'
