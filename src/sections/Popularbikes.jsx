@@ -13,6 +13,7 @@ const Popularbikes = () => {
           <ProductCard key={product.name} {...product}/>
         ))}
       </div>
+      <br className="font-bold block bg-black "/>
     </section>
   )
 }
