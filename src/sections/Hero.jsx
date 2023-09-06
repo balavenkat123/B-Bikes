@@ -26,7 +26,7 @@ const Hero = () => {
           <spam className="text-sky-500">TWO </spam>wheelers 
         </h1>
         <p className='mt-5 text-xl font-montserrat'>Discover new bikes with Best Downpayments all around Hyderabad</p>
-        <Button className="mt-5" lable="Shop now " 
+        <Button className="mt-5 " lable="Call Us Now" 
         iconURL={arrowRight}/>
       
       <div className='flex justify-starts items-start felx-wrap w-full mt-20 gap-16'>
