@@ -16,9 +16,9 @@ const Hero = () => {
         <p className='text-bold text-xl text-sky-800'>Our Collection </p>
         <h1 className='mt-8 font-palanque sm:text-8xl font-bold text-8xl'>
         <Typed
-                    strings={['NewArrival']}
+                    strings={['NewArrival','Brand New']}
                     typeSpeed={100}
-                    backSpeed={30}
+                    backSpeed={35}
                     loop
                 />
           
