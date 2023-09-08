@@ -3,7 +3,7 @@ import { arrowRight } from '../assets/icons'
 import { bike1 } from '../assets/images'
 import { bikes, statistics } from '../constants'
 import BikeCard from '../components/BikeCard'
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 import { useState } from 'react'
 
 
@@ -14,15 +14,15 @@ const Hero = () => {
      gap-5 max-container bg-sky-50' >
       <div className='relative xl:w-2/4 flex flex-col justify-center items-start w-full padding-x pt-28'>
         <p className='text-bold text-xl text-sky-800'>Our Collection </p>
-        <h1 className='mt-8 font-palanque sm:text-8xl font-bold text-8xl'>
-        <Typed
+        <h1 className='mt-8 font-palanque sm:text-8xl font-bold text-8xl'>New arrival
+        {/* <Typed
                     strings={['New Arrival','Brand New']}
                     typeSpeed={100}
                     backSpeed={30}
                     loop
-                />
+                /> */}
           
-          <br/>
+          <br/> 
           <spam className="text-sky-500">TWO </spam>wheelers 
         </h1>
         <p className='mt-5 text-xl font-montserrat'>Discover new bikes with Best Downpayments all around Hyderabad</p>
