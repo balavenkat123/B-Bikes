@@ -33,7 +33,7 @@ export const products = [
     {
         imgURL: bike4,
         name: "ACTIVA STD,DLX",
-        price: "10000rs",
+        price: "10,000rs (downpayment)",
     },
     {
         imgURL: bike5,
@@ -43,12 +43,12 @@ export const products = [
     {
         imgURL: bike6,
         name: "Shine Disc - OBD2",
-        price: "$220.20",
+        price: "12,000rs (downpayment)",
     },
     {
         imgURL: bike7,
         name: "Honda Dio",
-        price: "$230.20",
+        price: "15,000rs (downpayment)",
     },
 ];
 

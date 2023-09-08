@@ -11,14 +11,14 @@ const Hero = () => {
   const[bigBikeImg,setbigBikeImg]=useState(bike1)
   return (
     <section id='home' className='w-full border flex xl:flex-row flex-col min-h-screen
-     gap-10 max-container bg-sky-50' >
+     gap-5 max-container bg-sky-50' >
       <div className='relative xl:w-2/4 flex flex-col justify-center items-start w-full padding-x pt-28'>
         <p className='text-bold text-xl text-sky-800'>Our Collection </p>
         <h1 className='mt-8 font-palanque sm:text-8xl font-bold text-8xl'>
         <Typed
-                    strings={['NewArrival','Brand New']}
+                    strings={['New Arrival','Brand New']}
                     typeSpeed={100}
-                    backSpeed={35}
+                    backSpeed={30}
                     loop
                 />
           
