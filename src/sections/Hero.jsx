@@ -13,7 +13,7 @@ const Hero = () => {
     <section id='home' className='w-full border flex xl:flex-row flex-col min-h-screen
      gap-5 max-container bg-sky-50' >
       <div className='relative xl:w-1/3 flex flex-col justify-center items-start w-full padding-x pt-28'>
-        <p className='text-bold text-xl text-sky-800'>Our Collection </p>
+        <p className='text-bold text-xl text-sky-800'>md aqeel </p>
         <h1 className='mt-8 font-palanque sm:text-8xl font-bold text-7xl'>New arrival
         {/* <Typed
                     strings={['New Arrival','Brand New']}
